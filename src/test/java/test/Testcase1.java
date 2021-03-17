@@ -7,12 +7,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-
 import pages.LoginPage;
 
 public class Testcase1 {
-	
+	//working codes
 	WebDriver driver;
 	
 	@BeforeMethod
@@ -21,7 +19,7 @@ public class Testcase1 {
 
 		System.setProperty("webdriver.chrome.driver", "chromedriver");
 		
-		System.setProperty("webdriver.gecko.driver", "geckodriver");
+	
 		
 		
 		driver = new ChromeDriver();
